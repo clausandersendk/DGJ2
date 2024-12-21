@@ -42,8 +42,8 @@ def generate_csv(filename, start_date, end_date, omraader_list):
                 modested = ""
                 
                 # Set "Modetid" to always 09:00 and "Sluttidspunk" to always 15:00
-                modetid = "09:00"
-                sluttidspunk = "15:00"
+                modetid = "00:01"
+                sluttidspunk = "23:59"
                 
                 # Write a row with the generated data
                 writer.writerow([

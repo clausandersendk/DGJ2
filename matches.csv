@@ -1,21 +1,621 @@
 Dato,Tid,Hjemmehold,Udehold,Spillested,Modested,Modetid,Sluttidspunk
-12/14/2024,09:00,Midtervej,,Midtervej,,09:00,15:00
-12/14/2024,09:00,Moltrup A,,Moltrup A,,09:00,15:00
-12/14/2024,09:00,Moltrup B,,Moltrup B,,09:00,15:00
-12/14/2024,09:00,Moltrup C,,Moltrup C,,09:00,15:00
-12/14/2024,09:00,Alsted A,,Alsted A,,09:00,15:00
-12/14/2024,09:00,Alsted B/D,,Alsted B/D,,09:00,15:00
-12/14/2024,09:00,Alsted C,,Alsted C,,09:00,15:00
-12/14/2024,09:00,Alsted E,,Alsted E,,09:00,15:00
-12/14/2024,09:00,Ustrup,,Ustrup,,09:00,15:00
-12/14/2024,09:00,Nyborg,,Nyborg,,09:00,15:00
-12/14/2024,09:00,Tirslund A,,Tirslund A,,09:00,15:00
-12/14/2024,09:00,Tirslund B,,Tirslund B,,09:00,15:00
-12/14/2024,09:00,Tirslund C,,Tirslund C,,09:00,15:00
-12/14/2024,09:00,Bjerlev A,,Bjerlev A,,09:00,15:00
-12/14/2024,09:00,Bjerlev B,,Bjerlev B,,09:00,15:00
-12/14/2024,09:00,Bjerlev C,,Bjerlev C,,09:00,15:00
-12/14/2024,09:00,Fousing A,,Fousing A,,09:00,15:00
-12/14/2024,09:00,Fousing B,,Fousing B,,09:00,15:00
-12/14/2024,09:00,Fousing C,,Fousing C,,09:00,15:00
-12/14/2024,09:00,Fousing D,,Fousing D,,09:00,15:00
+01/01/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/01/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/01/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/01/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/01/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/01/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/01/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/01/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/01/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/01/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/01/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/01/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/01/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/01/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/01/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/01/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/01/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/01/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/01/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/01/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/02/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/02/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/02/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/02/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/02/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/02/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/02/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/02/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/02/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/02/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/02/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/02/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/02/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/02/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/02/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/02/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/02/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/02/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/02/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/02/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/03/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/03/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/03/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/03/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/03/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/03/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/03/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/03/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/03/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/03/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/03/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/03/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/03/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/03/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/03/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/03/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/03/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/03/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/03/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/03/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/04/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/04/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/04/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/04/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/04/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/04/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/04/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/04/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/04/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/04/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/04/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/04/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/04/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/04/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/04/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/04/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/04/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/04/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/04/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/04/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/05/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/05/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/05/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/05/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/05/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/05/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/05/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/05/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/05/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/05/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/05/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/05/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/05/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/05/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/05/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/05/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/05/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/05/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/05/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/05/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/06/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/06/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/06/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/06/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/06/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/06/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/06/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/06/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/06/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/06/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/06/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/06/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/06/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/06/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/06/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/06/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/06/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/06/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/06/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/06/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/07/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/07/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/07/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/07/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/07/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/07/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/07/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/07/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/07/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/07/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/07/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/07/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/07/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/07/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/07/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/07/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/07/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/07/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/07/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/07/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/08/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/08/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/08/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/08/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/08/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/08/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/08/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/08/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/08/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/08/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/08/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/08/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/08/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/08/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/08/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/08/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/08/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/08/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/08/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/08/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/09/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/09/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/09/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/09/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/09/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/09/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/09/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/09/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/09/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/09/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/09/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/09/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/09/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/09/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/09/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/09/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/09/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/09/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/09/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/09/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/10/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/10/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/10/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/10/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/10/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/10/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/10/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/10/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/10/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/10/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/10/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/10/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/10/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/10/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/10/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/10/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/10/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/10/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/10/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/10/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/11/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/11/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/11/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/11/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/11/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/11/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/11/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/11/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/11/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/11/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/11/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/11/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/11/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/11/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/11/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/11/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/11/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/11/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/11/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/11/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/12/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/12/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/12/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/12/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/12/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/12/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/12/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/12/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/12/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/12/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/12/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/12/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/12/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/12/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/12/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/12/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/12/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/12/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/12/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/12/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/13/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/13/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/13/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/13/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/13/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/13/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/13/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/13/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/13/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/13/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/13/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/13/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/13/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/13/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/13/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/13/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/13/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/13/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/13/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/13/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/14/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/14/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/14/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/14/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/14/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/14/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/14/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/14/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/14/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/14/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/14/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/14/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/14/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/14/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/14/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/14/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/14/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/14/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/14/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/14/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/15/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/15/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/15/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/15/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/15/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/15/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/15/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/15/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/15/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/15/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/15/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/15/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/15/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/15/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/15/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/15/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/15/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/15/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/15/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/15/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/16/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/16/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/16/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/16/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/16/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/16/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/16/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/16/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/16/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/16/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/16/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/16/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/16/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/16/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/16/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/16/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/16/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/16/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/16/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/16/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/17/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/17/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/17/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/17/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/17/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/17/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/17/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/17/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/17/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/17/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/17/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/17/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/17/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/17/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/17/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/17/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/17/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/17/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/17/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/17/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/18/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/18/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/18/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/18/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/18/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/18/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/18/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/18/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/18/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/18/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/18/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/18/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/18/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/18/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/18/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/18/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/18/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/18/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/18/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/18/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/19/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/19/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/19/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/19/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/19/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/19/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/19/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/19/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/19/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/19/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/19/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/19/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/19/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/19/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/19/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/19/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/19/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/19/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/19/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/19/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/20/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/20/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/20/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/20/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/20/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/20/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/20/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/20/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/20/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/20/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/20/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/20/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/20/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/20/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/20/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/20/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/20/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/20/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/20/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/20/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/21/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/21/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/21/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/21/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/21/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/21/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/21/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/21/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/21/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/21/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/21/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/21/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/21/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/21/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/21/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/21/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/21/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/21/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/21/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/21/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/22/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/22/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/22/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/22/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/22/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/22/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/22/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/22/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/22/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/22/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/22/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/22/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/22/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/22/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/22/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/22/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/22/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/22/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/22/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/22/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/23/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/23/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/23/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/23/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/23/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/23/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/23/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/23/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/23/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/23/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/23/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/23/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/23/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/23/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/23/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/23/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/23/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/23/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/23/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/23/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/24/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/24/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/24/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/24/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/24/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/24/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/24/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/24/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/24/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/24/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/24/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/24/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/24/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/24/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/24/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/24/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/24/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/24/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/24/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/24/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/25/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/25/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/25/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/25/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/25/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/25/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/25/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/25/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/25/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/25/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/25/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/25/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/25/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/25/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/25/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/25/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/25/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/25/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/25/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/25/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/26/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/26/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/26/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/26/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/26/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/26/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/26/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/26/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/26/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/26/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/26/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/26/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/26/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/26/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/26/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/26/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/26/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/26/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/26/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/26/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/27/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/27/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/27/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/27/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/27/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/27/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/27/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/27/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/27/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/27/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/27/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/27/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/27/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/27/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/27/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/27/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/27/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/27/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/27/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/27/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/28/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/28/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/28/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/28/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/28/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/28/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/28/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/28/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/28/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/28/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/28/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/28/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/28/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/28/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/28/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/28/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/28/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/28/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/28/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/28/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/29/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/29/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/29/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/29/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/29/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/29/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/29/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/29/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/29/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/29/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/29/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/29/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/29/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/29/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/29/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/29/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/29/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/29/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/29/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/29/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/30/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/30/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/30/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/30/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/30/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/30/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/30/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/30/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/30/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/30/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/30/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/30/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/30/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/30/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/30/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/30/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/30/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/30/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/30/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/30/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
+01/31/2025,09:00,Midtervej,,Midtervej,,00:01,23:59
+01/31/2025,09:00,Moltrup A,,Moltrup A,,00:01,23:59
+01/31/2025,09:00,Moltrup B,,Moltrup B,,00:01,23:59
+01/31/2025,09:00,Moltrup C,,Moltrup C,,00:01,23:59
+01/31/2025,09:00,Alsted A,,Alsted A,,00:01,23:59
+01/31/2025,09:00,Alsted B/D,,Alsted B/D,,00:01,23:59
+01/31/2025,09:00,Alsted C,,Alsted C,,00:01,23:59
+01/31/2025,09:00,Alsted E,,Alsted E,,00:01,23:59
+01/31/2025,09:00,Ustrup,,Ustrup,,00:01,23:59
+01/31/2025,09:00,Nyborg,,Nyborg,,00:01,23:59
+01/31/2025,09:00,Tirslund A,,Tirslund A,,00:01,23:59
+01/31/2025,09:00,Tirslund B,,Tirslund B,,00:01,23:59
+01/31/2025,09:00,Tirslund C,,Tirslund C,,00:01,23:59
+01/31/2025,09:00,Bjerlev A,,Bjerlev A,,00:01,23:59
+01/31/2025,09:00,Bjerlev B,,Bjerlev B,,00:01,23:59
+01/31/2025,09:00,Bjerlev C,,Bjerlev C,,00:01,23:59
+01/31/2025,09:00,Fousing A,,Fousing A,,00:01,23:59
+01/31/2025,09:00,Fousing B,,Fousing B,,00:01,23:59
+01/31/2025,09:00,Fousing C,,Fousing C,,00:01,23:59
+01/31/2025,09:00,Fousing D,,Fousing D,,00:01,23:59
