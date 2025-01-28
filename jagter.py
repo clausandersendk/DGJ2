@@ -1,5 +1,6 @@
 import csv
-import random
+import pandas as pd
+import os
 import datetime
 
 # Function to read spillested (now omraader) from omraader.txt
@@ -57,6 +58,26 @@ def generate_csv(filename, start_date, end_date, omraader_list):
                     sluttidspunk
                 ])
 
+def csv_to_excel(csv_path):
+    try:
+        # Get the system's default delimiter
+        with open(csv_path, 'r', newline='') as file:
+            dialect = csv.Sniffer().sniff(file.read(1024))
+            delimiter = dialect.delimiter
+
+        # Load the CSV into a DataFrame with the detected delimiter
+        df = pd.read_csv(csv_path, delimiter=delimiter)
+
+        # Generate the Excel file path
+        excel_path = os.path.splitext(csv_path)[0] + ".xlsx"
+
+        # Save the DataFrame to Excel
+        df.to_excel(excel_path, index=False)
+
+        print(f"Excel file created successfully at: {excel_path}")
+    except Exception as e:
+        print(f"An error occurred: {e}")
+
 # Main function to run the script
 def main():
     # User inputs for date range
@@ -81,6 +102,7 @@ def main():
     output_filename = "matches.csv"
     generate_csv(output_filename, start_date, end_date, omraader_list)
     print(f"CSV file '{output_filename}' has been generated.")
+    csv_to_excel(output_filename)    
 
 if __name__ == "__main__":
     main()
