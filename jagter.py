@@ -48,7 +48,7 @@ def generate_csv(filename, start_date, end_date, omraader_list):
                 
                 # Write a row with the generated data
                 writer.writerow([
-                    date.strftime('%m/%d/%Y'),  # Format the date to 'MM/DD/YYYY'
+                    date.strftime('%d/%m/%Y'),  # Format the date to 'DD/MM/YYYY'
                     tid,
                     hjemmehold,
                     udehold,
@@ -81,15 +81,15 @@ def csv_to_excel(csv_path):
 # Main function to run the script
 def main():
     # User inputs for date range
-    start_date_str = input("Enter the start date (YYYY-MM-DD): ")
-    end_date_str = input("Enter the end date (YYYY-MM-DD): ")
+    start_date_str = input("Enter the start date (DD-MM-YYYY): ")
+    end_date_str = input("Enter the end date (DD-MM-YYYY): ")
     
     # Parse the dates
     try:
-        start_date = datetime.datetime.strptime(start_date_str, '%Y-%m-%d').date()
-        end_date = datetime.datetime.strptime(end_date_str, '%Y-%m-%d').date()
+        start_date = datetime.datetime.strptime(start_date_str, '%d-%m-%Y').date()
+        end_date = datetime.datetime.strptime(end_date_str, '%d-%m-%Y').date()
     except ValueError:
-        print("Invalid date format. Please use YYYY-MM-DD.")
+        print("Invalid date format. Please use DD-MM-YYYY.")
         return
     
     # Read the omraader list from omraader.txt
