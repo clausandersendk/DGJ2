@@ -2,6 +2,10 @@ import csv
 import pandas as pd
 import os
 import datetime
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8d31798 (updated with sunrise / sunset time)
 
 # Function to read spillested (now omraader) from omraader.txt
 def read_omraader(file_path):
