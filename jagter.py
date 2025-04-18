@@ -1,108 +1,120 @@
 import csv
 import pandas as pd
 import os
-import datetime
+import requests
+from datetime import datetime, timedelta
 
-# Function to read spillested (now omraader) from omraader.txt
-def read_omraader(file_path):
+# Read omraader from CSV
+def read_omraader_csv(file_path):
+    omraader = []
     try:
-        with open(file_path, 'r') as file:
-            return [line.strip() for line in file.readlines()]
+        with open(file_path, newline='', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                if not row.get("Location") or not row.get("Latitude") or not row.get("Longitude"):
+                    print(f"⚠️ Skipping incomplete or invalid row: {row}")
+                    continue
+                try:
+                    omraader.append({
+                        "location": row["Location"].strip(),
+                        "lat": float(row["Latitude"]),
+                        "lng": float(row["Longitude"])
+                    })
+                except ValueError:
+                    print(f"⚠️ Skipping row with invalid lat/lng: {row}")
     except FileNotFoundError:
-        print(f"Error: {file_path} not found.")
-        return []
+        print(f"❌ Error: File '{file_path}' not found.")
+    return omraader
 
-# Function to create a list of dates within a range
+# Generate a list of dates
 def generate_dates(start_date, end_date):
-    date_list = []
-    current_date = start_date
-    while current_date <= end_date:
-        date_list.append(current_date)
-        current_date += datetime.timedelta(days=1)
-    return date_list
+    return [start_date + timedelta(days=i) for i in range((end_date - start_date).days + 1)]
 
-# Function to generate random data for the CSV file
+# Get sun times (no need for timezone conversion since API already returns local time)
+def get_sun_times(date, lat, lng):
+    url = f"https://api.sunrisesunset.io/json?lat={lat}&lng={lng}&date={date}"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+        results = data.get('results', {})
+        sunrise = results.get('sunrise')
+        sunset = results.get('sunset')
+
+        if not sunrise or not sunset:
+            raise ValueError("Missing sunrise/sunset in API response")
+
+        # Directly use the API return values (no conversion necessary)
+        sunrise_time = datetime.strptime(f"{date} {sunrise}", "%Y-%m-%d %I:%M:%S %p")
+        sunset_time = datetime.strptime(f"{date} {sunset}", "%Y-%m-%d %I:%M:%S %p")
+
+        # Modetid is 1 hour before sunrise
+        modetid_time = (sunrise_time - timedelta(hours=1)).strftime("%H:%M")
+
+        # Format times as hours and minutes
+        sunrise_time = sunrise_time.strftime("%H:%M")
+        sunset_time = sunset_time.strftime("%H:%M")
+
+        return sunrise_time, modetid_time, sunset_time
+
+    except Exception as e:
+        print(f"❌ Error fetching sun times for {date} (lat: {lat}, lng: {lng}): {e}")
+        return "09:00", "00:01", "23:59"
+
+# Generate CSV file
 def generate_csv(filename, start_date, end_date, omraader_list):
-    # Get the list of dates within the given range
     dates = generate_dates(start_date, end_date)
-    
-    with open(filename, mode='w', newline='') as file:
+
+    with open(filename, mode='w', newline='', encoding='utf-8-sig') as file:
         writer = csv.writer(file)
-        
-        # Writing header
         writer.writerow(["Dato", "Tid", "Hjemmehold", "Udehold", "Spillested", "Modested", "Modetid", "Sluttidspunk"])
-        
+
         for date in dates:
-            for spillested in omraader_list:  # Each spillested gets a row for each date
-                # Set "Tid" to always 09:00
-                tid = "09:00"
-                # set hjemmehold = Spillested
-                hjemmehold = spillested
-                # Leave , "Udehold", "Modested" empty
-                udehold = ""
-                modested = ""
-                
-                # Set "Modetid" to always 09:00 and "Sluttidspunk" to always 15:00
-                modetid = "00:01"
-                sluttidspunk = "23:59"
-                
-                # Write a row with the generated data
+            formatted_date = date.strftime('%Y-%m-%d')
+            for omraade in omraader_list:
+                tid, modetid, sluttidspunk = get_sun_times(formatted_date, omraade["lat"], omraade["lng"])
                 writer.writerow([
-                    date.strftime('%d/%m/%Y'),  # Format the date to 'DD/MM/YYYY'
+                    date.strftime('%d/%m/%Y'),
                     tid,
-                    hjemmehold,
-                    udehold,
-                    spillested,
-                    modested,
+                    omraade["location"],
+                    "",
+                    omraade["location"],
+                    "",
                     modetid,
                     sluttidspunk
                 ])
 
+# Convert CSV to Excel
 def csv_to_excel(csv_path):
     try:
-        # Get the system's default delimiter
-        with open(csv_path, 'r', newline='') as file:
-            dialect = csv.Sniffer().sniff(file.read(1024))
-            delimiter = dialect.delimiter
-
-        # Load the CSV into a DataFrame with the detected delimiter
-        df = pd.read_csv(csv_path, delimiter=delimiter)
-
-        # Generate the Excel file path
+        df = pd.read_csv(csv_path)
         excel_path = os.path.splitext(csv_path)[0] + ".xlsx"
-
-        # Save the DataFrame to Excel
         df.to_excel(excel_path, index=False)
-
-        print(f"Excel file created successfully at: {excel_path}")
+        print(f"✅ Excel file created successfully at: {excel_path}")
     except Exception as e:
-        print(f"An error occurred: {e}")
+        print(f"❌ An error occurred while converting to Excel: {e}")
 
-# Main function to run the script
+# Main program
 def main():
-    # User inputs for date range
     start_date_str = input("Enter the start date (DD-MM-YYYY): ")
     end_date_str = input("Enter the end date (DD-MM-YYYY): ")
-    
-    # Parse the dates
+
     try:
-        start_date = datetime.datetime.strptime(start_date_str, '%d-%m-%Y').date()
-        end_date = datetime.datetime.strptime(end_date_str, '%d-%m-%Y').date()
+        start_date = datetime.strptime(start_date_str, '%d-%m-%Y').date()
+        end_date = datetime.strptime(end_date_str, '%d-%m-%Y').date()
     except ValueError:
-        print("Invalid date format. Please use DD-MM-YYYY.")
+        print("❌ Invalid date format. Please use DD-MM-YYYY.")
         return
-    
-    # Read the omraader list from omraader.txt
-    omraader_list = read_omraader("omraader.txt")
-    
-    if not omraader_list:
-        return  # Exit if omraader list is empty or the file was not found
-    
-    # Generate the CSV file
+
+    omraader = read_omraader_csv("omraader.csv")
+    if not omraader:
+        print("❌ No valid omraader found.")
+        return
+
     output_filename = "matches.csv"
-    generate_csv(output_filename, start_date, end_date, omraader_list)
-    print(f"CSV file '{output_filename}' has been generated.")
-    csv_to_excel(output_filename)    
+    generate_csv(output_filename, start_date, end_date, omraader)
+    print(f"✅ CSV file '{output_filename}' has been generated.")
+    csv_to_excel(output_filename)
 
 if __name__ == "__main__":
     main()
